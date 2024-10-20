@@ -75,12 +75,21 @@ The EDA phase aimed to uncover trends and patterns related to restaurant success
   
 4. **Impact of Elite Users**:
     - Elite users, while fewer in number, contribute significantly more to review counts. They tend to engage more deeply with businesses, making them key drivers of restaurant visibility.
+<br>
 
-### Visualizing Success Across Locations
+### Visualizations
 
-- **Map Visualization**:
-    - Created an interactive map using Folium to visualize restaurant success scores across different cities and states.
-    - The map includes circle markers where the color intensity reflects the success score of each location, allowing easy comparison of cities.
+1. **Histograms**: Used to display the distribution of `review_count` and `stars`, helping to identify skewness, common rating ranges, and outliers in the dataset.
+  
+2. **Scatter Plots**: Plotted `review_count` against `stars` to visually analyze the correlation between user ratings and engagement. These plots highlighted that while higher ratings are generally associated with more reviews, the relationship is not always linear.
+
+3. **Heatmaps**: Generated correlation heatmaps to understand the relationships between various metrics, such as review counts, check-ins, and tips, revealing strong links between different forms of user engagement.
+
+4. **Bar Charts**: Used to compare average star ratings and total review counts across different cities and states, making it easier to identify top-performing locations.
+
+5. **Time Series Plots**: Visualized changes in user engagement metrics (e.g., review counts, check-ins) over time, especially focusing on dips during the COVID-19 pandemic and subsequent recovery trends.
+
+6. **Folium Map**: Created an interactive map that visualizes restaurant success across different cities and states. The markers are color-coded based on success scores, allowing for an intuitive comparison of geographic performance.
 <br>
 
 ### Recommendations
