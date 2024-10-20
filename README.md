@@ -3,12 +3,10 @@
 This project explores the factors contributing to the success of restaurants, specifically analyzing their user engagement metrics such as review counts and average ratings. The analysis is based on the **Yelp Dataset** available on Kaggle, which contains information about businesses, reviews, and users across multiple locations in the USA and Canada.
 
 Dataset: [Yelp Dataset on Kaggle](https://www.kaggle.com/datasets/yelp-dataset/yelp-dataset)
-<br>
 
 ## Project Overview
 
 The project is divided into several stages, including data extraction, cleaning, analysis, and visualization. The goal is to understand how factors like review count, star rating, and user engagement vary across cities and states and how they contribute to the overall success of restaurants.
-<br>
 <br>
 
 ### Dataset Information
@@ -29,7 +27,6 @@ The Yelp dataset contains multiple JSON files, but we have primarily used the fo
 3. **Time Trends**: Observing engagement trends over time and the impact of factors like seasonality and external events (e.g., COVID-19).
 4. **Sentiment Analysis**: Exploring the impact of review sentiment on ratings and review counts.
 <br>
-<br>
 
 ## Analysis Overview
 
@@ -39,9 +36,6 @@ The Yelp dataset contains multiple JSON files, but we have primarily used the fo
     - Extracted data from the Yelp JSON files.
     - Created SQL databases for efficient querying and data analysis.
     - Cleaned the dataset, handling missing values and outliers.
-  
-Here's a more concise version of the EDA section for your README:
-
 
 ### Exploratory Data Analysis (EDA)
 
@@ -60,8 +54,6 @@ The EDA phase aimed to uncover trends and patterns related to restaurant success
 
 6. **Visualization**: Created visualizations, including **scatter plots**, **histograms**, and a **Folium map**, to illustrate the relationships and geographic variations in restaurant success.
 
-<br>
-
 ### Key Findings
 
 1. **Geographical Trends**:
@@ -75,7 +67,6 @@ The EDA phase aimed to uncover trends and patterns related to restaurant success
   
 4. **Impact of Elite Users**:
     - Elite users, while fewer in number, contribute significantly more to review counts. They tend to engage more deeply with businesses, making them key drivers of restaurant visibility.
-<br>
 
 ### Visualizations
 
@@ -90,7 +81,6 @@ The EDA phase aimed to uncover trends and patterns related to restaurant success
 5. **Time Series Plots**: Visualized changes in user engagement metrics (e.g., review counts, check-ins) over time, especially focusing on dips during the COVID-19 pandemic and subsequent recovery trends.
 
 6. **Folium Map**: Created an interactive map that visualizes restaurant success across different cities and states. The markers are color-coded based on success scores, allowing for an intuitive comparison of geographic performance.
-<br>
 
 ### Recommendations
 
@@ -113,7 +103,6 @@ The EDA phase aimed to uncover trends and patterns related to restaurant success
 
 - **yelp1.pdf**: A detailed report of the findings from the analysis, summarizing the key insights and recommendations based on the data.
 <br>
-<br>
 
 ## Technologies Used
 
@@ -122,7 +111,6 @@ The EDA phase aimed to uncover trends and patterns related to restaurant success
 - **SQL**: For querying the Yelp dataset after converting the JSON files into SQL tables.
 - **Folium**: For interactive map visualization to explore geographical trends.
 - **Matplotlib/Seaborn**: For data visualization and plotting trends.
-<br>
 <br>
 
 ## Conclusion
