@@ -40,13 +40,26 @@ The Yelp dataset contains multiple JSON files, but we have primarily used the fo
     - Created SQL databases for efficient querying and data analysis.
     - Cleaned the dataset, handling missing values and outliers.
   
-- **Exploratory Data Analysis (Notebook: Analysis.ipynb)**:
-    - Performed exploratory data analysis (EDA) to uncover insights about the distribution of review counts, star ratings, and other metrics.
-    - Calculated the success score based on the formula:
-      ```python
-      success_score = avg_rating * log(review_count + 1)
-      ```
-      This metric combines both review count and average rating into a single indicator of restaurant success.
+Here's a more concise version of the EDA section for your README:
+
+
+### Exploratory Data Analysis (EDA)
+
+The EDA phase aimed to uncover trends and patterns related to restaurant success using key metrics such as `review_count` and `stars`. The following analyses were performed:
+
+1. **Descriptive Statistics**: Summarized key variables like `review_count` and `stars` to understand the distribution and central tendencies.
+   
+2. **Distribution & Correlation**:
+    - Explored the distribution of review counts and star ratings, identifying a moderate positive correlation between the two, though higher review counts didn't always guarantee better ratings.
+   
+3. **Geographical Insights**: Analyzed the performance of restaurants by **state** and **city**, highlighting top-performing cities such as Philadelphia and Tampa based on user engagement and ratings.
+
+4. **Outlier Detection**: Identified businesses with unusually high or low review counts and ratings, further exploring characteristics of outliers.
+
+5. **Time Trends**: Investigated changes in engagement over time, noting significant drops during the COVID-19 pandemic and gradual recovery.
+
+6. **Visualization**: Created visualizations, including **scatter plots**, **histograms**, and a **Folium map**, to illustrate the relationships and geographic variations in restaurant success.
+
 <br>
 
 ### Key Findings
