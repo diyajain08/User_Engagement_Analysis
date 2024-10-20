@@ -43,16 +43,15 @@ The EDA phase aimed to uncover trends and patterns related to restaurant success
 
 1. **Descriptive Statistics**: Summarized key variables like `review_count` and `stars` to understand the distribution and central tendencies.
    
-2. **Distribution & Correlation**:
-    - Explored the distribution of review counts and star ratings, identifying a moderate positive correlation between the two, though higher review counts didn't always guarantee better ratings.
+3. **Distribution & Correlation**: Explored the distribution of review counts and star ratings, identifying a moderate positive correlation between the two, though higher review counts didn't always guarantee better ratings.
    
-3. **Geographical Insights**: Analyzed the performance of restaurants by **state** and **city**, highlighting top-performing cities such as Philadelphia and Tampa based on user engagement and ratings.
+4. **Geographical Insights**: Analyzed the performance of restaurants by **state** and **city**, highlighting top-performing cities such as Philadelphia and Tampa based on user engagement and ratings.
 
-4. **Outlier Detection**: Identified businesses with unusually high or low review counts and ratings, further exploring characteristics of outliers.
+5. **Outlier Detection**: Identified businesses with unusually high or low review counts and ratings, further exploring characteristics of outliers.
 
-5. **Time Trends**: Investigated changes in engagement over time, noting significant drops during the COVID-19 pandemic and gradual recovery.
+6. **Time Trends**: Investigated changes in engagement over time, noting significant drops during the COVID-19 pandemic and gradual recovery.
 
-6. **Visualization**: Created visualizations, including **scatter plots**, **histograms**, and a **Folium map**, to illustrate the relationships and geographic variations in restaurant success.
+7. **Visualization**: Created visualizations, including **scatter plots**, **histograms**, and a **Folium map**, to illustrate the relationships and geographic variations in restaurant success.
 
 ### Key Findings
 
